@@ -22,7 +22,7 @@ const EventDetails = () => {
   }
 
   return (
-    <div className="event-details-container">
+    <div className="event-details-container" style={{zIndex:1000}}>
       <button onClick={() => navigate(-1)} className="back-button">
         <FaArrowLeft />
       </button>

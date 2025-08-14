@@ -1,3 +1,22 @@
+.logo-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden; /* hide other half */
+  width: 500px; /* half the diameter */
+  height: 500px;
+  z-index: 1; /* behind navbar */
+}
+
+.half-logo {
+  position: relative;
+  top: -210px;  /* move up for better alignment */
+  left: -210px; /* move left to reveal desired part */
+  width: 500px; /* full size of logo */
+  height: auto;
+  z-index: -1;
+}
+
 /* Navbar container */
 .custom-navbar {
   background: transparent;

@@ -4,7 +4,7 @@ import image from "../assets/inauguration.jpg";
 const About = () => {
   return (
     <StyledWrapper>
-      <div className="aboutus">
+      <div className="aboutus" style={{zIndex:1000}}>
         <img src={image} alt="Inauguration" />
         <section className="text-part">
           <h1 className="title">About Us</h1>
