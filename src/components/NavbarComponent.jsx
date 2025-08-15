@@ -9,7 +9,7 @@ export default function NavbarComponent() {
     <>
       {/* Half visible logo */}
       <div className="logo-container">
-        <img src="/ascilogo.svg" alt="Logo" className="half-logo" />
+        <img src="/logo.svg" alt="Logo" className="half-logo" />
       </div>
 
       {/* Navbar */}

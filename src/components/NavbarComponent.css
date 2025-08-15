@@ -3,18 +3,19 @@
   top: 0;
   left: 0;
   overflow: hidden; /* hide other half */
-  width: 500px; /* half the diameter */
-  height: 500px;
+  width: 470px; /* half the diameter */
+  height: 470px;
   z-index: 1; /* behind navbar */
 }
 
 .half-logo {
   position: relative;
-  top: -210px;  /* move up for better alignment */
-  left: -210px; /* move left to reveal desired part */
-  width: 500px; /* full size of logo */
+  top: -200px;  /* move up for better alignment */
+  left: -225px; /* move left to reveal desired part */
+  width: 470px; /* full size of logo */
   height: auto;
   z-index: -1;
+  border-radius: 50%;
 }
 
 /* Navbar container */
