@@ -19,7 +19,7 @@ const Event = () => {
 ];
 
   return (
-    <div className="events-page">
+    <div className="events-page" style={{zIndex:1000}}>
       <h1 className="event-title">Events</h1>
       <div style={{ height: "500px", positon: "relative" }}>
         <InfiniteScroll

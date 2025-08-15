@@ -169,7 +169,7 @@ const SocialIcons = styled.div`
 
 export default function Contact() {
   return (
-    <ContactWrapper>
+    <ContactWrapper style={{zIndex:1000}}>
       <FormSection>
         <Form onSubmit={(e) => e.preventDefault()}>
           <Input type="text" placeholder="Your Name" />
